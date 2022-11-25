@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        header{
+            height: 150px;
+            margin: auto;
+            border: solid;
+        }
+
+        h1{
+            padding-left: 10px;
+        }
+
+        nav{
+            text-align: center;
+            height: 40px;
+            border:solid;
+            margin: 40px 10px 10px 10px;
+        }
+
+        main{
+            margin:5px auto;
+            height: 660px;
+            border:solid;
+
+            
+        }
+
+        section {
+            margin: 40px 10px 10px 10px;
+            border:solid;
+            height: 600px;
+            width: 900px;
+        }
+
+        .artigo{
+            margin: 40px 10px 10px 10px;
+            border:solid;
+            height:290px;
+            width:870px;
+        }
+
+        h2{
+            text-align:center;
+            margin: 10px  auto 10px 10px ;
+            border:none;
+
+        }
+
+        P{
+            text-align: center;
+            margin: 10px 170px 100px 10px;
+            border:none;
+
+        }
+
+        article{
+            margin:10px;
+            border:solid;
+            height: 230px;
+            width: 870px;
+        }
+
+        article > aside{
+            position: relative;
+            margin:-150px;
+            margin-left: 730px;
+            border:solid;
+            height:180px;
+            width:100px;
+        }
+
+        aside{
+            text-align: center;
+            margin-top: -617px;
+            margin-left:58em;
+            padding: 10px;
+            height: 580px;
+            width: 360px;
+            border:solid;
+           
+        }
+        
+        footer{
+            font-weight: bold;
+            height: 20px;
+            border:solid;
+            text-align: center;
+            padding:20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+          <nav>LINK LINK LINK LINK</nav>
+        
+    </header>
+    <main>
+        <section>
+            <article class="artigo">
+            <h2>Título</h2>
+            <p>Texto do Artigo</p>
+            </article>
+            <article>
+                <h2>Título</h2>
+                <p> Parágrafo</p>
+                <aside>
+                    Conteúdo periférico do Artigo
+                </aside>
+            </article>
+        </section>
+        <aside>
+            Conteúdo Periférico do Artigo
+        </aside>
+    </main>
+    <footer>
+        Conteúdo do Rodapé
+    </footer>
+
+</body>
+</html>
